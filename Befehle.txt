@@ -1,0 +1,16 @@
+﻿
+Trainieren:
+python -m scripts.retrain ^ --bottleneck_dir=tf_files/bottlenecks ^ --model_dir=tf_files/models/"%ARCHITECTURE%" ^ --summaries_dir=tf_files/training_summaries/"%ARCHITECTURE%" ^ --output_graph=tf_files/retrained_graph.pb ^  --output_labels=tf_files/retrained_labels.txt ^  --architecture="%ARCHITECTURE%" ^  --image_dir=tf_files/animal_photos
+
+
+Nachprüfen:
+python -m scripts.label_image ^   --graph=tf_files/retrained_graph.pb  ^   --image=C:\Users\Ricarda\tensorflow-for-poets-2\image.jpg
+
+
+Hauptsächliche ungelöste Errors:
+
+Beim Trainieren:
+ZeroDivisionError: integer division or modulo by zero --> dafür bräuchten wir mehr als 200 Bilder pro Kategorie
+
+Beim Nachprüfen:
+KeyError: "The name 'import/input' refers to an Operation not in the graph."
