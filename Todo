@@ -1,3 +1,4 @@
 - Bilder vervielfältigen s. https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+https://keras.io/preprocessing/image/
 - Bisher geschriebenes KerasTest-Ding auf unsere Bilddaten übertragen/anpassen (v.a. Schritt 4,5,6)
 - herausfinden, wie man ein einzelnes Bild überprüft (s. https://stackoverflow.com/questions/43469281/how-to-predict-input-image-using-trained-model-in-keras)
