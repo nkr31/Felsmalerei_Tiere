@@ -4,3 +4,4 @@ https://keras.io/preprocessing/image/ --> flow_from_directory für sowohl das La
 - herausfinden, wie man ein einzelnes Bild überprüft (s. https://stackoverflow.com/questions/43469281/how-to-predict-input-image-using-trained-model-in-keras)
 - ReadME Datei hochladen
 - Bilder hochladen
+- Dokumentation
