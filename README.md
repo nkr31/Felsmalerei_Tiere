@@ -19,6 +19,7 @@ Projektdokumentation:
     -> Lösung: manuelles Vervielfältigen der Bilder
   Das Programm hat nach mehrerem Rumprobieren und manchen Fehlerbehebungen funktioniert.
   Jedoch: Kein eigen geschriebener Code vorhanden
+  (siehe Dateien: Ablauf mit Warnungen etc.txt und Befehle.txt)
   
 -> Nach Absprache mit dem Dozenten haben wir von Vorne begonnen und erst einmal erneut über Tensorflow und seine Möglichkeiten recherchiert
 -> Wieder sind wir mehreren Tutorials gefolgt und haben uns dann dazu entschieden, das Programm mit Hilfe der 
