@@ -39,7 +39,7 @@ def load_pictures():
 
     model = Sequential()
 
-    model.add(Convolution2D(32, (3, 3), activation='relu', input_shape=(150, 150, 1), data_format='channels_first'))
+    model.add(Convolution2D(32, (3, 3), activation='relu', input_shape=(150, 150, 3), data_format='channels_last'))
     model.add(Convolution2D(32, (3, 3), activation='relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.25))
