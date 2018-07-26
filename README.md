@@ -1,6 +1,6 @@
 # Felsmalerei_Tiere/ Künstliche Intelligenz
 Ziel des Projektes:   - Erkennung von verschiedenen Tierarten der Felsmalerei des Upper Brandberg
-                      - Große Tiergruppen, die das Programm erkennen soll: Zebra, Bird, Antilope, Giraffe (evtl. Ausweitung auf
+                      - Große Tiergruppen, die das Programm erkennen soll: Zebra, Vogel, Antilope, Giraffe (evtl. Ausweitung auf
                       andere Tierarten möglich)
                       
                       
@@ -23,7 +23,7 @@ Vorgehen und Schwierigkeiten:
 - Nach Absprache mit dem Dozenten haben wir von vorne begonnen und erst einmal erneut über Tensorflow und seine Möglichkeiten recherchiert
 - Wieder sind wir mehreren Tutorials gefolgt und haben uns dann dazu entschieden, das Programm mit Hilfe der 
    Python Deep Learning library Keras zu schreiben
-  
-- Jetziger Stand: Ein Programm existiert, muss jedoch noch an unsere Bedinungen und unser Ziel angepasst werden: 
-Fehlermeldungen beseitigen
-
+- So ist ein Programm entstanden, das ein Deep-Learning-Model erstellt und aufgrund von train- und test-Dateien in entsprechenden Ordnerstrukturen trainiert werden kann
+- Nach dem Training lässt sich das Model speichern und somit zu einem späteren Zeitpunkt wieder laden
+- Übergibt man dem Programm ein Bild mit einem Felsmalerei-Ausschnitt, der ein Tier zeigt, gibt es nun zurück, mit welcher Wahrscheinlichkeit dieses Tier sich jeweils in die entsprechenden Kategorien einsortieren lässt
+- Diese Klassifizierung funktioniert, der keras-eigenen Evaluierung zufolge, mit einer Accuracy von ca. 97% und einem Loss von 0,1. Schwierigkeiten bereitet jedoch vor allem noch die Unterscheidung zwischen Vögeln und Giraffen.
